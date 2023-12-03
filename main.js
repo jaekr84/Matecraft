@@ -107,8 +107,8 @@ document.getElementById('enviarRespuesta').addEventListener('click', function() 
 // Función para generar un problema de matemáticas
 function generarProblema() {
 // Genera dos números aleatorios entre 10 y 99
-    let num1 = Math.floor(Math.random() * 90) + 10;
-    let num2 = Math.floor(Math.random() * 90) + 10;
+    let num1 = Math.floor(Math.random() * 9) + 10;
+    let num2 = Math.floor(Math.random() * 9) + 10;
 // Decide aleatoriamente si la operación será una suma o una resta
     let operacion = Math.random() < 0.5 ? '+' : '-';
 // Si es una resta y el segundo número es mayor que el primero, los intercambia
